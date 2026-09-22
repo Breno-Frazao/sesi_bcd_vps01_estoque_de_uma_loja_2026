@@ -1,0 +1,28 @@
+entidade;tributo;tipo;tamanho;descrição
+movimento;id_movimento;int;11;Chave primária do movimento
+movimento;id_produto;int;11;Chave estrangeira que referencia o produto
+movimento;tipo;varchar;10;Indica se o movimento é de entrada ou saída
+movimento;quantidade;int;11;Quantidade de produtos movimentados
+movimento;data;date;-;Data em que o movimento foi realizado
+forncedor;id;int;11;Chave primária do fornecedor
+forncedor;razao_social;varchar;100;Razão social do fornecedor
+forncedor;nome_fantasia;varchar;100;Nome fantasia do fornecedor
+forncedor;cnpj;varchar;18;CNPJ do fornecedor
+forncedor;telefone;varchar;20;Telefone de contato do fornecedor
+forncedor;email;varchar;100;E-mail do fornecedor
+forncedor;endereço;varchar;150;Endereço do fornecedor
+produto;id;int;11;Chave primária do produto
+produto;nome;varchar;100;Nome do produto
+produto;descrição;varchar;255;Descrição e características do produto
+produto;preco;decimal;10,2;Preço de venda do produto
+produto;marca;varchar;100;Marca do produto
+produto;id_categoria;int;11;Chave estrangeira que referencia a categoria
+produto;id_fornecedor;int;11;Chave estrangeira que referencia o fornecedor
+categoria;id;int;11;Chave primária da categoria
+categoria;nome;varchar;100;Nome da categoria
+categoria;descricao;varchar;255;Descrição da categoria
+estoque;id_estoque;int;11;Identificador único do estoque (PK)
+estoque;id_produto;int;11;Identificador do produto (FK)
+estoque;quantidade;int;11;Quantidade atual do produto em estoque
+estoque;quantidade_minima;int;11;Quantidade mínima que deve ser mantida em estoque
+estoque;localizacao;varchar;100;Local onde o produto está armazenado
