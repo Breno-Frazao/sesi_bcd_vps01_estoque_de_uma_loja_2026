@@ -4,6 +4,7 @@ Ficção de dados
 
 Categoria
 [Categoria.csv](./Categoria.CSV)
+
 |id|nome|descricao|
 |-|-|-|
 |1|Vestido|Vestidos malha leve|
@@ -12,6 +13,7 @@ Categoria
 
 Dicionario
 [Dicionario.csv](./Dicionario.CSV)
+
 |entidade|tributo|tipo|tamanho|descricao|
 |-|-|-|-|-|
 |movimento|id_movimento|int|11|Chave primaria do movimento|
@@ -44,6 +46,7 @@ Dicionario
 
 Estoque
 [Estoque.csv](./Estoque.CSV)
+
 |id_estoque,id_produto,quantidade,quantidade_minima,localizacao|
 |-|-|-|-|-|
 |1|1|20|5|Prateleira A1|
@@ -54,6 +57,7 @@ Estoque
 
 Fornecedor
 [Fornecedor.csv](./Fornecedor.CSV)
+
 |id|razao_social|nome_fantasia|cnpj|telefone|email|endereco|
 |-|-|-|-|-|-|-|
 |1|Cia. Bering|Brening|81.394.025/0001-44|(11) 99991-1000|Bering.loja@gmail.com|R. das Orquideas 140|
@@ -64,6 +68,7 @@ Fornecedor
 
 Movimentação de Estoque
 [Movimentação de Estoque.csv](./MovimentaçãodeEstoque.CSV)
+
 |id_movimentacao|id_produto|tipo|quantidade|data|
 |1|1|entrada|40|01/10/2026|
 |2|2|entrada|20|02/10/2026|
@@ -76,6 +81,7 @@ Movimentação de Estoque
 
 Produto
 [Produto.csv](./Produto.CSV)
+
 |id|nome|descricao|preco|marca|id_categoria|id_forncededor|
 |-|-|-|-|-|-|-|
 |1|Camisa Basica|Manga curta e malha leve|29|74|Bering|2|1|
