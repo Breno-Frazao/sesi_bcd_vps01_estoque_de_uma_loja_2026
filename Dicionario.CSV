@@ -1,29 +1,28 @@
-|entidade|tributo|tipo|tamanho|descricao|
-|-|-|-|-|-|
-|movimento|id_movimento|int|11|Chave primaria do movimento|
-|movimento|id_produto|int|11|Chave estrangeira que referencia o produto|
-|movimento|tipo|varchar|10|Indica se o movimento e de entrada ou de saida|
-|movimento|quantidade|int|11|Quantidade de produtos movimentados|
-|movimento|data|date|-|Data em que o movimento foi realizado|
-|forncedor|id|int|11|Chave primaria do fornecedor|
-|forncedor|razao_social|varchar|100|Razao social do fornecedor|
-|forncedor|nome_fantasia|varchar|100|Nome fantasia do fornecedor|
-|forncedor|cnpj|varchar|18|CNPJ do fornecedor|
-|forncedor|telefone|varchar|20|Telefone de contato do fornecedor|
-|forncedor|email|varchar|100|E-mail do fornecedor|
-|forncedor|endereco|varchar|150|Endereco do fornecedor|
-|produto|id|int|11|Chave primaria do produto|
-|produto|nome|varchar|100|Nome do produto|
-|produto|descricao|varchar|255|Descricao e caracteristicas do produto|
-|produto|preco|decimal|10,2|Preco de venda do produto|
-|produto|marca|varchar|100|Marca do produto|
-|produto|id_categoria|int|11|Chave estrangeira que referencia a categoria|
-|produto|id_fornecedor|int|11|Chave estrangeira que referencia o fornecedor|
-|categoria|id|int|11|Chave primaria da categoria|
-|categoria|nome|varchar|100|Nome da categoria|
-|categoria|descricao|varchar|255|Descricao da categoria|
-|estoque|id_estoque|int|11|Identificador unico do estoque (PK)|
-|estoque|id_produto|int|11|Identificador do produto (FK)|
-|estoque|quantidade|int|11|Quantidade atual do produto em estoque|
-|estoque|quantidade_minima|int|11|Quantidade minima que deve ser mantida em estoque|
-|estoque|localizacao|varchar|100|Local onde o produto esta armazenado|
+entidade,tributo,tipo,tamanho,descricao
+movimento,id_movimento,int,11,Chave primaria do movimento
+movimento,id_produto,int,11,Chave estrangeira que referencia o produto
+movimento,tipo,varchar,10,Indica se o movimento e de entrada ou de saida
+movimento,quantidade,int,11,Quantidade de produtos movimentados
+movimento,data,date,-,Data em que o movimento foi realizado
+fornecedor,id,int,11,Chave primaria do fornecedor
+fornecedor,razao_social,varchar,100,Razao social do fornecedor
+fornecedor,nome_fantasia,varchar,100,Nome fantasia do fornecedor
+fornecedor,cnpj,varchar,18,CNPJ do fornecedor
+fornecedor,telefone,varchar,20,Telefone de contato do fornecedor
+fornecedor,email,varchar,100,E-mail do fornecedor
+fornecedor,endereco,varchar,150,Endereco do fornecedor
+produto,id,int,11,Chave primaria do produto
+produto,nome,varchar,100,Nome do produto
+produto,descricao,varchar,255,Descricao e caracteristicas do produto
+produto,preco,decimal,"10,2",Preco de venda do produto
+produto,marca,varchar,100,Marca do produto
+produto,id_categoria,int,11,Chave estrangeira que referencia a categoria
+produto,id_fornecedor,int,11,Chave estrangeira que referencia o fornecedor
+categoria,id,int,11,Chave primaria da categoria
+categoria,nome,varchar,100,Nome da categoria
+categoria,descricao,varchar,255,Descricao da categoria
+estoque,id_estoque,int,11,Identificador unico do estoque (PK)
+estoque,id_produto,int,11,Identificador do produto (FK)
+estoque,quantidade,int,11,Quantidade atual do produto em estoque
+estoque,quantidade_minima,int,11,Quantidade minima que deve ser mantida em estoque
+estoque,localizacao,varchar,100,Local onde o produto esta armazenado
