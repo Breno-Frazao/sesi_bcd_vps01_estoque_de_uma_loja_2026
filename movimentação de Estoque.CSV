@@ -1,4 +1,4 @@
-id_movimenta��o,id_produto,tipo,quantidade,data
+id_movimentacao,id_produto,tipo,quantidade,data
 1,1,entrada,40,01/10/2026
 2,2,entrada,20,02/10/2026
 3,2,saida,30,22/10/2026

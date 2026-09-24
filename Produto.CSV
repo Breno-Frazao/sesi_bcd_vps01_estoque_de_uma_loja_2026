@@ -1,6 +1,6 @@
-id,nome,descri��o,pre�o,marca,id_categoria,id_forncededor
+id,nome,descricao,preco,marca,id_categoria,id_forncededor
 1,Camisa Basica,Manga curta e malha leve,29,74,Bering,2,1
-2,Vestido Cropped,al�as finas e decore reto,99,6,Fazenda,1,2
+2,Vestido Cropped,alcas finas e decore reto,99,6,Fazenda,1,2
 3,Blazer,Manga drapeada e gola de lapela,399,9,Rara,3,3
-4,Vestido Dioriviera,Cor rosa e algod�o leve,22.000,00,D'ouro,1,4
-5,Camisa com Logo,Cor preta e inteiramente em algod�o,3.400,Doce e cabana,2,5
+4,Vestido Dioriviera,Cor rosa e algodao leve,22.000,00,D'ouro,1,4
+5,Camisa com Logo,Cor preta e inteiramente em algodao,3.400,Doce e cabana,2,5
